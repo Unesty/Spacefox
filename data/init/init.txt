@@ -25,8 +25,8 @@ This lets you set the starting windowed/fullscreen setting.  Can be YES, NO or P
 This is the size and font for windowed mode.  Changing to the 800x600 font might make you happier.
 If set below 256x256 it specifies the grid size instead, with a minimum of 80x25.
 
-[WINDOWEDX:1360]
-[WINDOWEDY:768]
+[WINDOWEDX:100]
+[WINDOWEDY:100]
 [FONT:Spacefox_16x16_text.png]
 
 You may disable window resizing if you wish.
@@ -88,11 +88,11 @@ Use this to set the maximum frame rate during play.  The movies are always cappe
 
 You may set FPS_CAP to 0 to make it uncapped.
 
-[FPS_CAP:240]
+[FPS_CAP:0]
 
 Use this to set the maximum graphical frame refresh rate during play.
 
-[G_FPS_CAP:240]
+[G_FPS_CAP:960]
 
 On cards that support the OpenGL ARB_sync extension, turning this on can improve framerates in GPU overload conditions. It defaults to NO, as many cards that claim to support this will crash if asked to do so.
 
